@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "greenlantern",
+  "version": "${version}",
+  "name": "Green Lantern Mod",
+  "description": "Wield a willpower-powered ring: energy blasts, hard-light constructs, shields and flight. Recharge at the Power Battery.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.greenlantern.GreenLanternMod"],
+    "client": ["com.greenlantern.client.GreenLanternClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
